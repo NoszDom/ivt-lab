@@ -77,6 +77,7 @@ public class GT4500 implements SpaceShip {
         break;
 
       case ALL:
+<<<<<<< HEAD
 
         while (!(primaryTorpedoStore.isEmpty() && primaryTorpedoStore.isEmpty())){
           // try to fire both of the torpedo stores
@@ -115,6 +116,11 @@ public class GT4500 implements SpaceShip {
             }
           }
         }
+=======
+        // try to fire both of the torpedo stores
+        //TODO implement feature
+        int x = 123;
+>>>>>>> branch-B
         break;
     }
 
